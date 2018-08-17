@@ -55,7 +55,6 @@ namespace WeightMonitor
         {
             if (port.IsOpen)
             {
-                Console.WriteLine("Kommt an");
                 port.Close();
                 port.PortName = portName;
 
